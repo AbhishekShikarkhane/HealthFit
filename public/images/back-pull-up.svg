@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .exercise-figure { fill: #4F46E5; }
+    .equipment { fill: #6B7280; }
+    .outline { stroke: #111827; stroke-width: 2; fill: none; }
+  </style>
+  <!-- Pull-up Bar -->
+  <rect x="40" y="30" width="120" height="10" class="equipment" rx="2" />
+  <rect x="30" y="30" width="10" height="30" class="equipment" />
+  <rect x="160" y="30" width="10" height="30" class="equipment" />
+  <!-- Person -->
+  <ellipse cx="100" cy="90" rx="15" ry="15" class="exercise-figure" />
+  <!-- Arms -->
+  <line x1="85" y1="90" x2="60" y2="40" class="outline" stroke-width="8" />
+  <line x1="115" y1="90" x2="140" y2="40" class="outline" stroke-width="8" />
+  <!-- Body -->
+  <line x1="100" y1="105" x2="100" y2="150" class="outline" stroke-width="12" />
+  <!-- Legs -->
+  <line x1="100" y1="150" x2="85" y2="180" class="outline" stroke-width="8" />
+  <line x1="100" y1="150" x2="115" y2="180" class="outline" stroke-width="8" />
+  <!-- Exercise Name -->
+  <text x="100" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Pull-Up</text>
+</svg>

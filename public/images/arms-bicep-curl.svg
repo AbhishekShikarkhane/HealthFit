@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .exercise-figure { fill: #4F46E5; }
+    .equipment { fill: #6B7280; }
+    .outline { stroke: #111827; stroke-width: 2; fill: none; }
+  </style>
+  <!-- Person -->
+  <ellipse cx="100" cy="60" rx="15" ry="15" class="exercise-figure" />
+  <!-- Body -->
+  <line x1="100" y1="75" x2="100" y2="130" class="outline" stroke-width="12" />
+  <!-- Left Arm (curling) -->
+  <path d="M85,80 Q70,100 85,110" class="outline" stroke-width="8" fill="none" />
+  <!-- Right Arm (straight) -->
+  <line x1="115" y1="80" x2="130" y2="110" class="outline" stroke-width="8" />
+  <!-- Legs -->
+  <line x1="100" y1="130" x2="85" y2="170" class="outline" stroke-width="8" />
+  <line x1="100" y1="130" x2="115" y2="170" class="outline" stroke-width="8" />
+  <!-- Dumbbells -->
+  <circle cx="85" cy="110" r="8" class="equipment" />
+  <circle cx="130" cy="110" r="8" class="equipment" />
+  <!-- Exercise Name -->
+  <text x="100" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Bicep Curl</text>
+</svg>

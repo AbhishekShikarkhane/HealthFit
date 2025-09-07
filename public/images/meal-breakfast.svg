@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <style>
+    .plate { fill: #F3F4F6; stroke: #D1D5DB; stroke-width: 2; }
+    .food-item-1 { fill: #FBBF24; }
+    .food-item-2 { fill: #34D399; }
+    .food-item-3 { fill: #EC4899; }
+    .utensil { fill: #9CA3AF; }
+  </style>
+  <!-- Plate -->
+  <circle cx="100" cy="110" r="60" class="plate" />
+  
+  <!-- Yogurt/Oatmeal Base -->
+  <ellipse cx="100" cy="110" rx="45" ry="20" class="food-item-1" />
+  
+  <!-- Berries/Fruits -->
+  <circle cx="80" cy="100" r="8" class="food-item-3" />
+  <circle cx="95" cy="95" r="6" class="food-item-3" />
+  <circle cx="110" cy="105" r="7" class="food-item-3" />
+  <circle cx="120" cy="95" r="5" class="food-item-3" />
+  
+  <!-- Granola/Nuts -->
+  <path d="M75,105 L85,110 L80,115 Z" class="food-item-2" />
+  <path d="M90,110 L100,115 L95,120 Z" class="food-item-2" />
+  <path d="M110,110 L120,115 L115,120 Z" class="food-item-2" />
+  
+  <!-- Spoon -->
+  <path d="M140,100 Q150,90 145,80 Q140,70 130,75 Q125,80 130,90 Z" class="utensil" />
+  <line x1="130" y1="90" x2="150" y2="110" stroke="#9CA3AF" stroke-width="2" />
+  
+  <!-- Meal Name -->
+  <text x="100" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Breakfast</text>
+  <text x="100" y="50" text-anchor="middle" font-family="Arial" font-size="12">Greek Yogurt with Berries</text>
+</svg>
